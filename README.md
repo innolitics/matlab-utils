@@ -10,7 +10,7 @@ In GitHub, [download a zip archive](https://github.com/innolitics/matlab-utils/a
 
 ## Functions
 
-We have implemented the Following Functions:
+We have implemented the following functions:
 
 | Function Name | Notes |
 | --- | --- |
