@@ -2,6 +2,15 @@ function tests = prctile_test
     tests = functiontests(localfunctions);
 end
 
+function test_vector_single_percentile_two(testCase)
+    x = [1 2];
+    verifyEqual(testCase, prctile(x, 0), 1);
+    verifyEqual(testCase, prctile(x, 25), 1);
+    verifyEqual(testCase, prctile(x, 50), 1.5);
+    verifyEqual(testCase, prctile(x, 75), 2);
+    verifyEqual(testCase, prctile(x, 100), 2);
+end
+
 function test_vector_single_percentile(testCase)
     x = [1 6 4 5 2];
     verifyEqual(testCase, prctile(x, 0), 1);
