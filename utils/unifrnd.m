@@ -12,5 +12,5 @@ function X = unifrnd(a, b, varargin)
     else
         type = 'double';
     end
-    X = a + rand(sz, type).*(a - b);
+    X = a + rand(sz, type).*(b - a);
 end

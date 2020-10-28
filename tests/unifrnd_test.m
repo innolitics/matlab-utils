@@ -43,3 +43,9 @@ function test_unifrnd_12_limits(testCase)
     x = unifrnd([1 2], [1 2], 1, 2);
     verifyEqual(testCase, x, [1 2]);
 end
+
+function test_unifrnd_99_limits(testCase)
+    x = unifrnd(2, 3, [9, 9]);
+    verifyGreaterThanOrEqual(testCase, x, 2);
+    verifyLessThanOrEqual(testCase, x, 3);
+end
