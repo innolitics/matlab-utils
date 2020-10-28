@@ -15,6 +15,7 @@ We have implemented the following functions:
 | Function Name | Notes |
 | --- | --- |
 | [prctile](https://www.mathworks.com/help/stats/prctile.html) | Only implements the first call form, `Y = prctile(X,p)` |
+| [unifrnd](https://www.mathworks.com/help/stats/unifrnd.html) | Seems complete, but not fully tested |
 
 ## Helping
 
